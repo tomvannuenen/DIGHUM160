@@ -5,8 +5,8 @@ channels:
 dependencies:
   - python=3.10
   - jupyter
-  - pandas
-  - numpy<2.0
+  - pandas=2.0
+  - "numpy<2.0"
   - matplotlib
   - seaborn
   - scikit-learn
@@ -19,10 +19,14 @@ dependencies:
   - requests
   - tqdm
   - ipykernel
+  - bokeh=3.3
   - pip
   - pip:
     - transformers
     - torch
     - pydantic
-    - pyldavis
     - adjusttext
+    - "pyldavis==3.4.1"
+    - "numexpr<2.10"
+    - inflect
+    - bertopic

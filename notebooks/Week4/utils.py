@@ -14,7 +14,7 @@ from scipy import spatial
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
-nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
 nltk.download('vader_lexicon')
 
 def _calculate_centroid(model, wordlist):
