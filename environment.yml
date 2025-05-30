@@ -1,0 +1,28 @@
+name: dighum
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyter
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy=1.11
+  - gensim
+  - nltk
+  - spacy
+  - networkx
+  - beautifulsoup4
+  - requests
+  - tqdm
+  - ipykernel
+  - pip
+  - pip:
+    - transformers
+    - torch
+    - pydantic
+    - pyldavis
+    - adjusttext
