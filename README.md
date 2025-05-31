@@ -26,11 +26,9 @@ If you have a Mac, make sure to download the correct distribution for either App
 
 2. Download the materials in this repository:
 
-* Click the green "Code" button in the top right of the repository information.
-* Click "Download Zip".
-* Extract/Unzip this file to a folder on your computer where you can easily access it (we recommend Desktop). If you need help on how to do this: [Mac](https://support.apple.com/en-gb/guide/mac-help/mchlp2528/mac) / [Windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc).
+* Go into your terminal and type `git clone https://github.com/tomvannuenen/DIGHUM160.git`
 
-3. You can create a new environment and install the package dependencies using the following terminal command (after navigating to the `DIGHUM160-main` folder):
+3. You can create a new environment and install the package dependencies using the following terminal command (after navigating to the `DIGHUM160` folder):
 
 ```bash
 conda env create -f environment.yml
