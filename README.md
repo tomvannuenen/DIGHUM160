@@ -24,9 +24,7 @@ Anaconda is software that allows you to run Python and Jupyter Notebooks on your
 
 If you have a Mac, make sure to download the correct distribution for either Apple Silicon (for M1-M3 chips) or Intel (for Intel chips; typically, these can be found in pre-2021 MacBooks). If you don't know which chip you have, click on the Apple icon on your screen, click on "About This Mac", and look under "Chip". 
 
-2. Download the materials in this repository:
-
-* Go into your terminal and type `git clone https://github.com/tomvannuenen/DIGHUM160.git`
+2. Download the materials in this repository: Go into your terminal and type `git clone https://github.com/tomvannuenen/DIGHUM160.git`
 
 3. You can create a new environment and install the package dependencies using the following terminal command (after navigating to the `DIGHUM160` folder):
 
