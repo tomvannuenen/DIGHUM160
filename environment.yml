@@ -4,29 +4,34 @@ channels:
   - defaults
 dependencies:
   - python=3.10
+  - huggingface-hub
+  - pyldavis
   - jupyter
   - pandas=2.0
   - "numpy<2.0"
   - matplotlib
+  - transformers
   - seaborn
   - scikit-learn
   - scipy=1.11
   - gensim
+  - sentence-transformers
+  - spacytextblob
+  - sentencepiece
   - nltk
   - spacy
+  - ipywidgets
   - networkx
   - beautifulsoup4
   - requests
   - tqdm
   - ipykernel
   - bokeh=3.3
+  - pydantic
   - pip
   - pip:
-    - transformers
     - torch
-    - pydantic
     - adjusttext
-    - "pyldavis==3.4.1"
     - "numexpr<2.10"
     - inflect
     - bertopic
