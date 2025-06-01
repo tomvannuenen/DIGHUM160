@@ -30,3 +30,4 @@ dependencies:
     - "numexpr<2.10"
     - inflect
     - bertopic
+    - gdown
