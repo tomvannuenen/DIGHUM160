@@ -28,11 +28,17 @@ dependencies:
   - ipykernel
   - bokeh=3.3
   - pydantic
+  - plotly
+  - python-kaleido
+  - jupyterlab
+  - notebook
+  - ipython
+  - nbformat
   - pip
   - pip:
-    - torch
-    - adjusttext
-    - "numexpr<2.10"
-    - inflect
-    - bertopic
-    - gdown
+      - bertopic
+      - inflect
+      - adjusttext
+      - gdown
+      - "numexpr<2.10"
+      - torch
