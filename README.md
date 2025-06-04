@@ -81,11 +81,11 @@ The DataHub loads this repository and allows you to run the materials in a Jupyt
 
 - **img/**  Has the images used throughout this repository.
 
-- **.gitignore**  A file for ignoring changes to this repository
+- **.gitignore**  A file for ignoring changes to this repository.
 
 - **README.md**  Contains the text on this page.
 
-- **requirements.txt**  Python libraries needed to run this repo.
+- **environment.yml**  Lists all the packages and versions needed to run the notebooks. Use it to create a matching Conda environment on your machine so everything works the same as intended.
 
 ## DH Summer Minor
 
