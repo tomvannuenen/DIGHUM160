@@ -42,3 +42,5 @@ dependencies:
       - gdown
       - "numexpr<2.10"
       - torch
+      - umap-learn
+      - google-generativeai
