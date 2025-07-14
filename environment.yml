@@ -4,7 +4,6 @@ channels:
   - defaults
 dependencies:
   - python=3.10
-  - huggingface-hub
   - pyldavis
   - jupyter
   - pandas=2.0
@@ -16,7 +15,6 @@ dependencies:
   - scipy=1.11
   - gensim
   - sentence-transformers
-  - spacytextblob
   - sentencepiece
   - nltk
   - spacy
@@ -44,3 +42,5 @@ dependencies:
       - torch
       - umap-learn
       - google-generativeai
+      - huggingface-hub
+      - spacytextblob
