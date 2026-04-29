@@ -41,6 +41,6 @@ dependencies:
       - "numexpr<2.10"
       - torch
       - umap-learn
-      - google-generativeai
+      - google-genai
       - huggingface-hub
       - spacytextblob
