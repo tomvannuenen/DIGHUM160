@@ -7,15 +7,17 @@ import statistics
 from datetime import datetime
 from gensim.test.utils import datapath, get_tmpfile
 from gensim.models import KeyedVectors
-from gensim.scripts.glove2word2vec import glove2word2vec
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from operator import itemgetter
 from scipy import spatial
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
-nltk.download('averaged_perceptron_tagger_eng')
-nltk.download('vader_lexicon')
+try:
+    nltk.download('averaged_perceptron_tagger_eng', quiet=True)
+    nltk.download('vader_lexicon', quiet=True)
+except Exception:
+    pass
 
 def _calculate_centroid(model, wordlist):
     """
@@ -49,8 +51,8 @@ def _get_model_min_max_rank(model):
             maxF = rank
     return [minF, maxF]
 
-sid = SentimentIntensityAnalyzer()
 def _get_sentiment(word):
+    sid = SentimentIntensityAnalyzer()
     return sid.polarity_scores(word)['compound']
     
 def _normalise(val, minF, maxF):
